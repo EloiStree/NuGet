@@ -46,5 +46,5 @@ dotnet new classlib
 dotnet build
 dotnet pack
 
-
 ```
+https://www.nuget.org
