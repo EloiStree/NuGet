@@ -15,6 +15,36 @@ https://youtu.be/R2Smy3bi_rM?t=370
 
 
 ```
+Project Sdk="Microsoft.NET.Sdk">
+
+  <!--DOC:  https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices#readme-->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>be.elab.iid</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Eloi Stree</Authors>
+    <Description>IID is an Index Integer Date format used for network</Description>
+    <Product>IID</Product>
+    <Company>eLab</Company>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/EloiStree/NuGet_IID</RepositoryUrl>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="LICENSE.md" Pack="true" PackagePath="" />
+    <None Include="README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
+</Project>
+
+
+```
+
+```
 dotnet new classlib
+dotnet build
 dotnet pack
+
+
 ```
