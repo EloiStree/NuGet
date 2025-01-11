@@ -11,3 +11,10 @@ https://youtu.be/R2Smy3bi_rM?t=92
 
 [![image](https://github.com/user-attachments/assets/e3ed6e98-9715-45c3-a89c-51aee13c970c)](https://youtu.be/R2Smy3bi_rM?t=370)  
 https://youtu.be/R2Smy3bi_rM?t=370  
+
+
+
+```
+dotnet new classlib
+dotnet pack
+```
