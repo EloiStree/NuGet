@@ -14,8 +14,8 @@ https://youtu.be/R2Smy3bi_rM?t=370
 
 
 
-```
-Project Sdk="Microsoft.NET.Sdk">
+``` xml
+<Project Sdk="Microsoft.NET.Sdk">
 
   <!--DOC:  https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices#readme-->
   <PropertyGroup>
